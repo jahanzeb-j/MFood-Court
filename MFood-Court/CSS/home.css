@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+	html,body
+	{  margin:0px;
+	background-image:url("../Images/background-wood.jpg");
+	background-size:cover; 
+	
+	}
+	.divheader{
+
+ padding-top:30px;
+	 font-style:bold;
+	 font-size:30px;
+	 margin-left:20px;
+	 padding-left:20px;
+			}
+			header
+	{ background-color:#EEBB51;
+	font-family:"Comic Sans MS", cursive;
+	font-size:xx-large; font-style:italic;
+		min-height:200px;
+		width:100%;
+		border-bottom:1px solid #C00;
+		size:landscape;
+		
+	}
+
+	footer{
+		
+		size:inherit;
+		height:1000;
+		width:inherit;
+		alignment-adjust:middle;
+	}
+
+.button{
+	border-color:#FFC;
+color:#FFC;
+background-color:#F00;
+width:150px;
+height:50px;
+font-style:italic;
+font-family:"Comic Sans MS", cursive;
+font-size:large;
+border-radius:10px;
+border-right-color:#FF6;
+float:left;
+margin:4px;
+
+}
+.fo{
+	
+	background-color:#EEBB51;
+		min-height:150px;
+		width:100%;
+		border-top:2px solid #C00;
+}
+
+.fodiv{
+	
+	
+	background-color:rgba(204,204,153,1);
+		min-height:150px;
+		width:100%;
+		border-top:2px solid #C00;
+}
+
+.bdiv
+{
+	column-fill:balance;
+	size:landscape;
+	table-layout:fixed;
+	float:left;
+}
+.centerdiv {
+			
+    width: 980px;
+    min-height:770px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(51,51,51,0.6);
+    box-shadow: 0px 0px 4px 2px #999;	
+	
+}
+.inputr
+{
+	alignment-adjust:central;
+	border-radius:6px;
+	box-shadow: 0px 0px 1px 1px #00CCFF;
+	height:32px;
+	text-align:center;
+	
+	
+}
+.inputrdiv {
+	
+	margin-right:30%;
+	margin-left:30%
+}
+.donebutton {
+	border-color: #FFC;
+	color: #FFC;
+	background-color: #F00;
+	width: 130px;
+	height: 30px;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive;
+	border-radius: 5px;
+	border-right-color: #FF6;
+	margin: 4px;
+}
+.donebutton:hover
+ {
+		background-color:rgba(0,51,153,1);
+
+
+}
+.SUBcenterdiv {
+			
+    width: 380px;
+    min-height:130px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(51,51,51,0.8);
+    box-shadow: 0px 0px 4px 2px #999;
+	border-radius:8px;
+	color:rgba(255,255,255,1);
+	padding:20px 20px 20px 20px;
+
+	
+}
+* {
+	padding:0;
+	margin:0;
+}
